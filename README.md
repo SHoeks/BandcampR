@@ -1,5 +1,8 @@
 # BandcampR
-Download albums for bandcamp albums using R
+Download albums from bandcamp using R
+
+# Dependencies
+The stringr package (https://cran.r-project.org/web/packages/stringr/stringr.pdf)
 
 # Future updates
 - Support for Mac and Linux
