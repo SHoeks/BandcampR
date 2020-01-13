@@ -1,0 +1,13 @@
+\name{get_lib_path}
+\alias{get_lib_path}
+\title{get_lib_path}
+\usage{
+get_lib_path()
+}
+\description{
+get_lib_path
+}
+\examples{
+get_lib_path()
+}
+\keyword{internal}

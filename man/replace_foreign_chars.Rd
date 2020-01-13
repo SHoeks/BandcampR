@@ -1,0 +1,13 @@
+\name{replace_foreign_chars}
+\alias{replace_foreign_chars}
+\title{replace_foreign_chars}
+\usage{
+replace_foreign_chars()
+}
+\description{
+replace_foreign_chars
+}
+\examples{
+replace_foreign_chars()
+}
+\keyword{internal}

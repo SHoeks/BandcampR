@@ -1,0 +1,13 @@
+\name{correct_capitalization}
+\alias{correct_capitalization}
+\title{correct_capitalization}
+\usage{
+correct_capitalization()
+}
+\description{
+correct_capitalization
+}
+\examples{
+correct_capitalization()
+}
+\keyword{internal}

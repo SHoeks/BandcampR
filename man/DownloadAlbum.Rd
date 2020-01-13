@@ -1,0 +1,13 @@
+\name{DownloadAlbum}
+\alias{DownloadAlbum}
+\title{DownloadAlbum}
+\usage{
+DownloadAlbum()
+}
+\description{
+DownloadAlbum
+}
+\examples{
+DownloadAlbum()
+}
+\keyword{internal}
