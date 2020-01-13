@@ -20,7 +20,7 @@ library(BandcampR)
 
 ### Download album
 ```R
-DownloadAlbum('https://{artist_name}.bandcamp.com/album/{album_name}',PATH='C:/Downloads')
+DownloadAlbum('https://{artist_name}.bandcamp.com/album/{album_name}','C:/Downloads')
 ```
 This function requires two inputs: 
 - The album url 
