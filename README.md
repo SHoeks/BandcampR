@@ -1,14 +1,14 @@
 # BandcampR
 Download albums from bandcamp using R
 
-# Dependencies
+## Dependencies
 The stringr package (https://cran.r-project.org/web/packages/stringr/stringr.pdf)
 
-# Future updates
+## Future updates
 - Support for Mac and Linux
 - Better handling of foreign (non-standard) characters
 
-# Example (on Windows only, for now)
+## Example (on Windows only, for now)
 
 ### Install package
 ```R
