@@ -22,4 +22,6 @@ library(BandcampR)
 ```R
 DownloadAlbum('https://{artist_name}.bandcamp.com/album/{album_name}',PATH='C:/Downloads')
 ```
-This function requires the album link and the path to download the songs to
+This function requires two inputs: 
+- The album url 
+- The target path (download folder)
