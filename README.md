@@ -8,7 +8,7 @@ The stringr package (https://cran.r-project.org/web/packages/stringr/stringr.pdf
 - Support for Mac and Linux
 - Better handling of foreign (non-standard) characters
 
-## Example (on Windows only, for now)
+## Example (Windows only, for now)
 
 ### Install package
 ```R
