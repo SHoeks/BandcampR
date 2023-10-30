@@ -2,7 +2,11 @@
 download_track = function(t_urls,track_url,track_filename,track_number,PATH){
 
   # set exec path
-  wget_exe = paste0(get_lib_path(),'get_mp3.exe')
+  if(Sys.info()["sysname"]=="Darwin"){
+    wget_exe= "/opt/homebrew/bin/wget"
+  }else if(Sys.info()["sysname"]=="Windows"){
+    wget_exe = paste0(get_lib_path(),'get_mp3.exe')
+  }
 
   # set temp dir
   temp_dir=paste0(gsub("\\\\", "/", tempdir()))

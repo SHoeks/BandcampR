@@ -2,7 +2,11 @@
 get_track_urls = function(album_url){
 
   # set exec path
-  phantomjs_exe=paste0(get_lib_path(),'get_page.exe')
+  if(Sys.info()["sysname"]=="Darwin"){
+    phantomjs_exe=paste0(get_lib_path(),'get_page_mac')
+  }else if(Sys.info()["sysname"]=="Windows"){
+    phantomjs_exe=paste0(get_lib_path(),'get_page.exe')
+  }
 
   # set temp dir
   temp_dir=paste0(gsub("\\\\", "/", tempdir()))
@@ -22,6 +26,9 @@ get_track_urls = function(album_url){
   fileConn<-file(js_file_path)
   writeLines(c(vars,func),fileConn)
   close(fileConn)
+
+  # for debugging
+  #system(paste0("open ",temp_dir))
 
   # run phantomjs and read page
   system(paste0(phantomjs_exe," ",js_file_path))
